@@ -57,6 +57,6 @@ def readAnswer():
 #generateAndStoreKeyPair() # - Step 1
 #askServer() # - Step 2
 #Step 3 takes place in SampleServer.py!
-readAnswer() # - Step 4
+#readAnswer() # - Step 4
 
 
