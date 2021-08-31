@@ -11,11 +11,7 @@ class MovesPredictor:
         coef = self.reg.coef_[0]
         prediction = white*coef[0]+black*coef[1]+year*coef[2]+self.reg.intercept_
         return prediction
-
-#def main():
-#    mp = MovesPredictor()
-#    result = mp.predict(2000,2000,2005)
-#    print(result)
-
-#if __name__ == '__main__':
-#    main()
+    def getCoef(self):
+        return self.reg.coef_[0]
+    def getIntercept(self):
+        return self.reg.intercept_
